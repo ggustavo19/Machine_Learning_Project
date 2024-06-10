@@ -25,7 +25,7 @@ The purpose of the analysis was to create a regression model that can predict po
 * Compiling, Training, and Evaluating the Model
 
    * Gustavo Models
-      * Random Forst best Result
+      * Random Forest
          * ![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/152371383/86f988aa-c887-4961-b89f-1e75a7c00ad2)
       * Neural Network Model 
          * ![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/152371383/50ea3957-0391-4f1f-a117-7f60b122c73d)
@@ -41,4 +41,6 @@ The purpose of the analysis was to create a regression model that can predict po
    
 
 ## Summary
-The machine learning model developed with the highest accuracy out of our seperate optimizing attempts was the Random Forest Model with an R^2 score of 0.8558% which met the .80 target. 
+The machine learning model developed with the highest accuracy from our optimization attempts was the Random Forest Model, achieving an R² score of 0.8558, surpassing our target of 0.80. To enhance the model's performance, we omitted features of low importance and predictability, such as those that were subsets of one another, like child-poverty compared to poverty, and median household income compared to income per capita.
+
+Our focus was on regression models due to our problem, which involved predicting continuous poverty rates rather than classification tasks. Improvements to our model can be achieved by gathering more data from the Census Survey that may provide better predictors for poverty rates.
