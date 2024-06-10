@@ -1,7 +1,7 @@
 # Machine_Learning_Project
 
 ## Overview of the Analysis
-The purpose of the analysis was to create a regression model that can predict poverty based on Demographic, Economic, Education, and Housing data. The meta data was based on the American Community Survey (5 year estimate data profiles) from data.census.gov. We gathered data from the following tables: DP02, DP03, DP04, DP05.
+The purpose of the analysis was to create a regression model that can predict poverty based on Demographic, Economic, Education, and Housing data. The meta data was based on the American Community Survey (5 year estimate data profiles) from data.census.gov. We gathered data from the following tables: DP02, DP03, DP04, DP05 for years 2018- 2022.
 
 ## Results
 
