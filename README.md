@@ -19,8 +19,9 @@ The purpose of the analysis was to create a regression model that can predict po
     * Removed Variables:
       * `GEO_ID`, `County`, and `Year` were removed because they were Identification columns which did not aid with predictive information.
       * `Child -Poverty`,`Median Mortgage`, `Median Rent`, `Per Capita Income`, `Employed`/`Popultion 16+`/ `Total Population` (Chose one) removed due to high correlation to avoid redundancy or multicollinearity.
-     
-        
+      *![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/152371383/635ca989-0f0d-447c-bc31-2c86eba2347e)
+
+      
 * Compiling, Training, and Evaluating the Model
 
 ## Summary
