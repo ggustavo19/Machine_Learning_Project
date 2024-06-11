@@ -32,13 +32,39 @@ The purpose of the analysis was to create a regression model that can predict po
        
    * Joshua Models
       * Linear Regression
-         * ![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/152371383/567468a5-dfdc-4989-9f6f-cc0184155866)
-      * Decision Tree
-         * ![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/152371383/6e4cdc8f-d608-4c66-8200-6e0b3fcd0494)
-      * Random Forest
-         * ![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/152371383/d579cdc6-5c4f-4c85-aef1-f228f23fbade)
+         * ![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/151583321/2734d6b5-551f-4a9c-8b42-7b6e55512cb0)
 
-   
+         * ![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/151583321/3effcb06-87ea-4da0-8c26-f7867212dd08)
+
+      * Decision Tree
+         * ![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/151583321/1d1e44db-8476-42e5-9b85-5f9cc7d916db)
+
+         * ![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/151583321/3bd74f60-3cb9-4d8f-a764-fa1d447807c0)
+
+      * Random Forest
+         * ![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/151583321/4ed766b8-d32b-49d9-9a37-042f576fe835)
+
+         * ![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/151583321/9768e333-d087-4d25-b386-53b13b1cfdff)
+
+           
+## Optimizing the Random Forest Model
+We ultimately decided to go with the random forest models as it provided us with the highest R-squared value and smallest MSE and RMSE values. To further optimize our random forest model, we utilized the `GridSearchCV` module from the `SKLearn` Python library. Our code to run this is below.
+
+![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/151583321/b18afee1-4e27-46a9-954c-cbcad88e5623)
+
+![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/151583321/75a91fc0-1274-4f55-b061-188bb775b719)
+
+With the results that we received from the grid search, we ran the random forest based on those parameters and the following values got slightly better.
+
+Optimized Random Forest:
+![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/151583321/e8ba6653-7ca6-41d3-8dbe-d02604725e25)
+
+![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/151583321/e5dbc116-6871-4a3f-b53a-64964c7f5a09)
+
+
+## Feature Importance
+![image](https://github.com/ggustavo19/Machine_Learning_Project/assets/151583321/820e4b29-f67b-424c-b59d-a5f07ed70bfc)
+
 
 ## Summary
 The machine learning model developed with the highest accuracy from our optimization attempts was the Random Forest Model, achieving an R² score of 0.8558, surpassing our target of 0.80. To enhance the model's performance, we omitted features of low importance and predictability, such as those that were subsets of one another, like child-poverty compared to poverty, and median household income compared to income per capita.
